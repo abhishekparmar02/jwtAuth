@@ -1,4 +1,5 @@
-To create the API server
+#To start the API server
+    go run main.go handlers.go
 
 #SignUp
     curl -v -X POST -d '{"Username":"user0","Password":"password0"}' http://localhost:8080/signup
