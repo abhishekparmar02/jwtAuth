@@ -1,4 +1,5 @@
-#To start the API server
+#To start the API server:
+
   go run main.go handlers.go
 
 #SignUp
