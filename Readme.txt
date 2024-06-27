@@ -4,7 +4,8 @@
 #SignUp
     curl -v -X POST -d '{"Username":"user0","Password":"password0"}' http://localhost:8080/signup
 
-    Note: If trying to create user with previously used username then 400 BadRequest response will be received Note: The usernames user1 and user2 are already stored in the file store
+    Note: If trying to create user with previously used username then 400 BadRequest response will be received 
+    Note: The usernames user1 and user2 are already stored in the file store
 
 #Login
     curl -v -X POST -d '{"Username":"user0","Password":"password0"}' http://localhost:8080/login
